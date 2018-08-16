@@ -1,0 +1,1043 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"res",
+				"resultFile"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"max-",
+				"max-height\tproperty"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"jc",
+				"jc-sb\tjustify-content: space-between;"
+			],
+			[
+				"jcf",
+				"jc-fe\tjustify-content: flex-end;"
+			],
+			[
+				"bgs",
+				"bgsz\tbackground-size"
+			],
+			[
+				"ob",
+				"object-fit\tproperty"
+			],
+			[
+				"BASE",
+				"BASE_PRICE"
+			],
+			[
+				"DISA",
+				"DISPLAY_PROPERTIES"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"bg",
+				"background-color\tproperty"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"int",
+				"intval"
+			],
+			[
+				"key",
+				"key_j"
+			],
+			[
+				"con",
+				"continue"
+			],
+			[
+				"tt",
+				"text-transform\tproperty"
+			],
+			[
+				"fw",
+				"font-weight\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"b",
+				"bottom\tvertical-align"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"a",
+				"auto\theight"
+			],
+			[
+				"bore",
+				"border\tproperty"
+			],
+			[
+				"flex-",
+				"flex-flow\tproperty"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"table",
+				"table-row\tdisplay"
+			],
+			[
+				"os",
+				"ov-s\toverflow: scroll;"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"hidden",
+				"hiddenClass"
+			],
+			[
+				"class",
+				"activeClass"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"ac",
+				"addClass"
+			],
+			[
+				"modal",
+				"modalClose"
+			],
+			[
+				"targ",
+				"targetDelivery"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"bgsc",
+				"bgsz-cv\tbackground-size: cover;"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"medal",
+				"medal_g.png\tw:92 h:104"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"cup_",
+				"cup_1.png\tw:140 h:242"
+			],
+			[
+				"tal",
+				"tal-a\ttext-align-last: auto;"
+			],
+			[
+				"ta",
+				"text-align"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"Basket",
+				"BasketButton"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"repea",
+				"repeat-x  (value)"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"prod_",
+				"prod_types"
+			],
+			[
+				"su",
+				"super_cat_id"
+			],
+			[
+				"fetch",
+				"fetchall_hashref"
+			],
+			[
+				"bra",
+				"brand_cat"
+			],
+			[
+				"CONS",
+				"constant  (module)"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"bacgr",
+				"background"
+			],
+			[
+				"inse",
+				"insertBefore  (function)"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"Com",
+				"CompareBlocks"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"pa",
+				"parent"
+			],
+			[
+				"crea",
+				"createElement  (function)"
+			],
+			[
+				"lo",
+				"found-loading"
+			],
+			[
+				"foun",
+				"found-loading"
+			],
+			[
+				"_SHOP_VA",
+				"_SHOP_VALUES_LIST_BOOLEAN"
+			],
+			[
+				"moz-bo",
+				"-moz-border-radius:   (property)"
+			],
+			[
+				"price_",
+				"price_where"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"prod",
+				"producer"
+			],
+			[
+				"atr",
+				"attributes"
+			],
+			[
+				"g_",
+				"g_pre_res"
+			],
+			[
+				"parse",
+				"parseFloat"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"sele",
+				"selected_params"
+			],
+			[
+				"att",
+				"attrs"
+			],
+			[
+				"sel",
+				"selected_params"
+			],
+			[
+				"cre",
+				"createElement  (function)"
+			],
+			[
+				"prd",
+				"products"
+			],
+			[
+				"C",
+				"Cache"
+			],
+			[
+				"q",
+				"queue"
+			],
+			[
+				"at",
+				"Attributes"
+			],
+			[
+				"_",
+				"_updated"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"gro",
+				"groups"
+			],
+			[
+				"CAT_",
+				"CAT_SET_OBJECT_ATTR"
+			],
+			[
+				"group_",
+				"group_name"
+			],
+			[
+				"atru",
+				"attributes"
+			],
+			[
+				"list",
+				"lists"
+			],
+			[
+				"Attributes",
+				"AttributesUpdate"
+			],
+			[
+				"Гру",
+				"Группы"
+			],
+			[
+				"GetAtri",
+				"GetAttributesAll"
+			],
+			[
+				"A",
+				"Attributes"
+			],
+			[
+				"grop",
+				"groupType"
+			],
+			[
+				"conne",
+				"connectWith"
+			],
+			[
+				"groups",
+				"groups_options"
+			],
+			[
+				"rece",
+				"receive"
+			],
+			[
+				"show",
+				"show_type"
+			],
+			[
+				"file",
+				"filter_group_name"
+			],
+			[
+				"att_",
+				"attr_name"
+			],
+			[
+				"_SHOP_FIL",
+				"_SHOP_FILTERS_GROUPS"
+			],
+			[
+				"fil",
+				"filter_group_id"
+			],
+			[
+				"count",
+				"count_template"
+			],
+			[
+				"time",
+				"timezone"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"_SHOP",
+				"_SHOP_GROUPS_REL"
+			],
+			[
+				"group",
+				"group_name"
+			],
+			[
+				"icon",
+				"icon-delete"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"_SHOP_",
+				"_SHOP_ATTRS_LIST"
+			],
+			[
+				"_SHO",
+				"_SHOP_VALUES_"
+			],
+			[
+				"type",
+				"type_id"
+			],
+			[
+				"__",
+				"__PRODUCTS__CACHE"
+			],
+			[
+				"els",
+				"elsif"
+			],
+			[
+				"PROD",
+				"PROD_PRODS_ADD"
+			],
+			[
+				"li",
+				"lists"
+			],
+			[
+				"Pro",
+				"ProductsOnlyChange"
+			],
+			[
+				"PROD_",
+				"PROD_PRODS_GET_ALL"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/jenia/projects/answer/shri-ex2/package.json",
+			"settings":
+			{
+				"buffer_size": 1046,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/jenia/projects/answer/shri-ex2/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 6749,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<!--[if IE 9]>\n  <html class=\"ie9\">\n<![endif]-->\n<html lang=\"ru\" dir=\"ltr\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Document</title>\n\t<link rel=\"stylesheet\" href=\"public/css/index.css\">\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n</head>\n<body class=\"body\">\n\t<header class=\"header\"></header>\n\n\t<main class=\"main\">\n\t</main>\n\n\t<footer class=\"footer\"></footer>\n\n</body>\n</html>",
+			"file": "/home/jenia/projects/answer/shri-ex2/index.html",
+			"file_size": 543,
+			"file_write_time": 131781077883321231,
+			"settings":
+			{
+				"buffer_size": 470,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 294.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: $.trim"
+			]
+		],
+		"width": 657.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jenia/projects/answer/shri-ex2",
+		"/home/jenia/projects/answer/shri-ex2/public",
+		"/home/jenia/projects/answer/shri-ex2/public/css",
+		"/home/jenia/projects/answer/shri-ex2/public/f"
+	],
+	"file_history":
+	[
+		"/home/jenia/projects/answer/shri-ex2/webpack.config.js",
+		"/home/jenia/projects/answer/shri-ex2/public/css/postcss/text.css",
+		"/home/jenia/projects/answer/shri-ex2/public/css/postcss/index.css",
+		"/home/jenia/projects/answer/shri-ex2/public/css/c/c.css",
+		"/home/jenia/projects/answer/shri-ex2/public/css/maps/c.css.map",
+		"/home/jenia/projects/answer/shri-ex2/public/css/postcss/layout.css",
+		"/home/jenia/projects/answer/shri-ex2/index.html",
+		"/home/jenia/projects/answer/shri-ex2/public/js/index.js",
+		"/home/jenia/projects/answer/shri-ex1/src/index.js",
+		"/home/jenia/projects/answer/shri-ex2/public/css/postcss/modules/fonts.css",
+		"/home/jenia/projects/answer/shri-ex2/public/css/postcss/style.css",
+		"/home/jenia/projects/answer/shri-ex2/gulpfile.js",
+		"/media/jenia/54C62908C628EBC4/projects/start_kit/gulpfile.js",
+		"/home/jenia/projects/answer/shri-ex2/package.json",
+		"/home/jenia/projects/answer/shri-ex2/public/css/postcss/plugins/normalize.css",
+		"/home/jenia/projects/answer/shri-ex1/webpack.config.js",
+		"/home/jenia/projects/answer/shri-ex1/package.json",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/compare.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/catalog.smart.filter/flex.filter/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/header.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/kuznica/banner/banner/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/news.list/main_banner/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/main-banner.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/catalog.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/style.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/news.list/tizer/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/product.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/js/main.js",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/catalog.element/catalog/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/components/kuznica/banner/component.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/store_minimal_red/header.php",
+		"/home/jenia/servers/colibri/kolibri/app/gulpfile.js",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/menu/flex.sidebar.menu/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/flex/store.sale.basket.basket/flex.basket/basket_items.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/sale.personal.order.list/personal/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/sale.personal.order.list/personal/lang/ru/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/gulpfile.js",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/flex/store.sale.basket.basket/flex.basket/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/menu-sub-sidebar.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/menu-sidebar.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/basket.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/filter.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/design.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/system.auth.registration/.default/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/reg-form.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/catalog/catalog/section.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/ab/catalog.section/lastview/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/sort.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/news.list/reviews/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/basket-tizer.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/layout.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/catalog-card.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/section-list.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/reviews-item.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/news.list/design/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/catalog.section/flex.section/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/main.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/flex/store.sale.basket.basket/flex.basket/lang/ru/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/account.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/header.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/search-top.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/system.pagenavigation/ajax/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/footer.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/Print/header.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/Print/styles.css",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/Print/components/bitrix/store.sale.basket.basket/flex.basket/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/personal/cart/index.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/Print/css/fonts.css",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/Print_P/header.php",
+		"/home/jenia/servers/combat/home/bitrix/www/personal/cart/index.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/Print/css/styles.css",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/Print/include/print_footer.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/Print/include/print_header.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/Print/template_styles.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/news.list/design/result_modifier.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/vars.css",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/flex/colors.css",
+		"/home/jenia/servers/combat/home/bitrix/www/test/about/the-chandeliers-in-the-design-projects/index.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/menu-top.css",
+		"/home/jenia/servers/combat/home/bitrix/www/test/about/installation-and-connection-of-the-chandeliers/index.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/about/internet-shop-chandeliers-and-lamps-in-chelyabinsk/index.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/sale.basket.basket.line/flex.basket/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/sale.basket.basket.line/flex.basket/top_template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/ajax/cart_top.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/script.js",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/catalog.section/new/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/kuznica/main.feedback/flex.recall/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/flex/components/bitrix/news.list/design/result_modifier.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/about/contacts/index.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/flex/components/kuznica/main.feedback/flex.form/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/menu-main.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/modules/dark-wrap.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/news.list/design/lang/ru/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/components/bitrix/catalog.element/component.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/news/manufacturers/detail.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/catalog/index.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/news.list/sidebar_reviews/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/catalog.element/flex.fastview/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/about/o-nas/index.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/components/bitrix/catalog.section/component.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/flex/components/bitrix/catalog.section/flex.section/result_modifier.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/flex/components/bitrix/news.detail/geo/result_modifier.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/text.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/kuznica/main.feedback/flex.question/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/ajax/question.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/ajax/feedback.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/ajax/recall.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/kuznica/main.feedback/flex.feedback/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/ajax/manufactor.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/components/kuznica/main.feedback/component.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/ajax/fast_view/index.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/kuznica/main.feedback/flex.feedback/lang/ru/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/kuznica/main.feedback/flex.recall/lang/ru/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/ajax/register.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/flex/components/kuznica/main.feedback/flex.feedback/script.js",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/system.auth.authorize/.default/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/plugins/slick-theme.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/css/postcss/plugins/slick.css",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/system.auth.registration/.default/lang/ru/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/bitrix/templates/flex/components/bitrix/system.auth.forgotpasswd/.default/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/templates/flex/components/bitrix/system.auth.registration/.default/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/components/bitrix/system.auth.registration/templates/.default/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/components/bitrix/main.register/templates/.default/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/components/bitrix/system.auth.authorize/templates/flat/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/components/bitrix/system.auth.authorize/templates/.default/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/components/bitrix/main.profile/templates/.default/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/components/bitrix/system.auth.confirmation/templates/.default/template.php",
+		"/home/jenia/servers/combat/home/bitrix/www/test/bitrix/components/bitrix/system.auth.initialize/templates/.default/template.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 163.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"webpack_stream",
+			"concat",
+			"resultFile",
+			"outFileName",
+			"resultCssPath",
+			"css_path",
+			"NODE_ENV",
+			"development",
+			"css_map_path",
+			"css_out_path",
+			"css_map_path",
+			"outFileName",
+			"resultFile",
+			"isDevelopment",
+			"cssSourcemapsOptions",
+			"isDevelopment",
+			"post_css_main_file",
+			"mainFileName",
+			"cssSourcemapsOptions",
+			"mapPathName",
+			"cssSourcemapsOptions",
+			"outFileName",
+			"style",
+			"isDevelopment",
+			"resultCssPath",
+			"outFileName",
+			"resultCssPath",
+			"conso",
+			"css_map_path",
+			"style",
+			"resultMapPath",
+			"isDevelopment",
+			"css_out_path",
+			"post_css_main_file",
+			"mainFileName",
+			"outFileName",
+			"css_out_path",
+			"outFileName",
+			"webpack",
+			"webpack_stream",
+			"\t",
+			"css_path",
+			" ",
+			"util",
+			"postcss-extend",
+			"postcss-easings",
+			"postcss-units",
+			"postcss_import",
+			"postcss-import",
+			"postcss_assets",
+			"postcss-assets",
+			"postcss_media_minmax",
+			"postcss-discard-comments",
+			"postcss-color-function",
+			"sourcemaps",
+			"rename",
+			"uglify",
+			"doiuse",
+			"clean",
+			"uglify",
+			"path",
+			"plumber",
+			"server",
+			"outFileName",
+			"watch",
+			"paths",
+			"post_css_files_mask",
+			"task_env",
+			"production",
+			"html",
+			"reload",
+			"css",
+			"post_css_files_mask",
+			"reload",
+			"resultCssPath",
+			"server",
+			"production",
+			"min_max",
+			"post_css_files_mask",
+			"watch",
+			"watch-postcss",
+			"clean_css_params",
+			"var",
+			"browserSync",
+			"concat"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\nnpm i -D ",
+			"npm i -D \n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/jenia/projects/answer/shri-ex2/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/jenia/projects/answer/shri-ex2/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4151,
+								4151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1532.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/jenia/projects/answer/shri-ex2/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 103.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.gulp_output":
+	{
+		"height": 154.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "shri-ex-2.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 295.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

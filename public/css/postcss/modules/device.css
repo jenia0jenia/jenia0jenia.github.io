@@ -1,0 +1,123 @@
+$module: .device;
+
+$(module) {
+	position: relative;
+	width: 100%;
+
+	&__title {
+		font-size: 18px;
+		margin-right: 15px;
+	}
+
+	&__selector {
+
+		&-wrapper {	
+			display: flex;
+			align-items: center;
+			margin-top: 30px;
+			margin-bottom: 20px;
+			margin-right: 40px;
+		}
+
+		&-button {
+			display: none !important;
+
+			&::after {
+				content: '';
+				position: absolute;
+				display: inline-block;
+				height: 15px;
+			    width: 13px;
+			    top: 9px;
+    			right: 14px;
+
+				background-size: contain;
+				background-image: url($(icons)arrow_down.svg);
+			    background-position: center;
+			    background-repeat: no-repeat;
+			}
+		}
+
+		&-item {
+			display: inline-block;
+			color: #000;
+		    padding: 7px 12px;
+    		font-size: 14px;
+			border-radius: 20px;
+			cursor: pointer;
+			background-color: $brown-ground;
+
+			&:not(:last-child) {
+				margin-right: 8px;
+			}
+
+			&:hover {
+				background-color: #fff;
+				box-shadow: 0 2px 6px 0 rgba(#c5baba, 0.50);
+			}
+
+			&_active {
+				background-color: $yellow;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $media-desktop) {
+	$(module) {
+	}
+}
+
+@media only screen and (max-width: $media-laptop) {
+	$(module) {
+	}
+}
+
+@media only screen and (max-width: $media-tablet) {
+	$(module) {
+		&__selector {
+			&-wrapper {	
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $media-mobile) {
+	$(module) {
+		&__selector {
+			display: none;
+			position: absolute;
+		    background-color: #f7f7f7;
+		    padding: 15px;
+		    transform: translateX(-100%);
+		    top: 34px;
+    		left: 100%;
+
+    		&_open {
+				display: block;
+    		}
+
+		    &-wrapper {
+		    	position: relative;
+		    	justify-content: space-between;
+		    	margin-top: 25px;
+		    	margin-bottom: 15px;
+		    }
+
+			&-item {
+				display: block;
+				/* padding: 7px 22px; */
+
+				&:not(:last-child) {
+					margin-right: 0;
+				}
+			}
+
+			&-button {
+				display: block !important;
+				padding: 8px 30px 8px 15px;
+			}
+		}
+	}
+}

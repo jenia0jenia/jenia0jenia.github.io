@@ -1,1 +1,2 @@
-# jenia0jenia.github.io
+# shri-ex2
+second ex of shri
