@@ -1,2 +1,2 @@
-# shri-ex2
-second ex of shri
+# jenia0jenia
+	github page
