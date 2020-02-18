@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 	<title>Евгений Черненко</title>
+
 	<link rel="stylesheet" href="./public/style.css">
 	<script src="./public/main.js"></script>
+
 </head>
 <header></header>
 <body>
@@ -13,37 +17,59 @@
 			<div class="about__header">
 				<span>Евгений Черненко</span>
 			</div>
-			<div class="about__list">
-				<table>
-					<tbody>
-						<tr>
-							<td>дата рождения:</td>
-							<td>16.05.1993</td>
-						</tr>
-						<tr>
-							<td>проживание:</td>
-							<td>г. Челябинск</td>
-						</tr>
-						<tr>
-							<td>образование:</td>
-							<td>высшее, окончил ЮУрГУ в 2015г.</td>
-						</tr>
-						<tr>
-							<td>семейное положение:</td>
-							<td>холост</td>
-						</tr>
-						<tr>
-							<td>военный билет:</td>
-							<td>присутствует</td>
-						</tr>
-						<tr>
-							<td>работа:</td>
-							<td>отсутствует</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="about__footer">Вот та кнопка, которую нужно нажать, чтобы номер телефона. <button id="js-show-phone">Показать телефон</button> <span id="js-phone-place" class="hidden">+7-999-99-99-999</span></div>
+			<table class="about__table">
+				<tbody>
+					<tr>
+						<td>дата рождения:</td>
+						<td>16.05.1993</td>
+					</tr>
+					<tr>
+						<td>проживание:</td>
+						<td>г. Челябинск</td>
+					</tr>
+					<tr>
+						<td>образование:</td>
+						<td>высшее, окончил ЮУрГУ в 2015г.</td>
+					</tr>
+					<tr>
+						<td>семейное положение:</td>
+						<td>холост</td>
+					</tr>
+					<tr>
+						<td>военный билет:</td>
+						<td>присутствует</td>
+					</tr>
+					<tr>
+						<td>трудоустройство:</td>
+						<td>отсутствует</td>
+					</tr>
+					<tr>
+						<td>род занятий:</td>
+						<td>программист, актёр</td>
+					</tr>
+					<tr>
+						<td><button class="about__show-phone" id="js-show-phone">Показать телефон:</button></td>
+						<td><a href="+79995812843" id="js-phone-place" class="hidden">+7-999-58-128-43</a></td>
+					</tr>
+					<tr>
+						<td>ссылки на работы:</td>
+						<td>
+							<ul class="about__work-list">
+								<li class="about__work-list-item">
+									<a  class="about__work-list-link" target="_blank" href="github.com/jenia0jenia/">github</a>
+								</li>
+								<li class="about__work-list-item">
+									<a  class="about__work-list-link" target="_blank" href="maneken.studio">maneken.studio</a>
+								</li>
+								<li class="about__work-list-item">
+									<a  class="about__work-list-link" target="_blank" href="hh.ru">портфолио</a>
+								</li>
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="about__footer"></div>
 		</div>
 	</div>
 </body>

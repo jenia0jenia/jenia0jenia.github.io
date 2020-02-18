@@ -655,6 +655,24 @@ document.addEventListener('DOMContentLoaded', function () {
     this.disabled = true;
     phonePlace.style.display = 'initial';
   });
+  /* eslint-disable no-console */
+
+  function removeSimilarCharacters(arrayInput, isCaseSensitive = true) {
+    let reKeys = isCaseSensitive ? 'g' : 'gi';
+    arrayInput.forEach((string, stringIndex) => {
+      for (let i = 0; i < string.length - 1; i++) {
+        let re = new RegExp(string[i], reKeys);
+        string = string.substring(0, i + 1) + string.substring(i + 1, string.length).replace(re, '');
+      }
+
+      arrayInput[stringIndex] = string;
+    });
+    return arrayInput;
+  } // removeSimilarCharacters(['бабубббууушшкашка'])
+  // removeSimilarCharacters(['Разнообразный', 'привет', 'мама', 'брат', 'сестра', 'бабушка', 'бабубббууушшкашка'])
+
+  /* eslint-disable no-console */
+
 });
 
 /***/ }),
