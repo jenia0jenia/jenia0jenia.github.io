@@ -17,6 +17,7 @@
 
   &__body {
     margin-left: 120px;
+    min-height: 120px;
 
     &.comment_bad {
       display: none;
@@ -58,7 +59,6 @@
 
   &__text {
     margin-bottom: 10px;
-    min-height: 80px;
   }
 
   &__collapse {

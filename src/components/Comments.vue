@@ -8,7 +8,7 @@
         :comment="comment"
         :comments="comments"
         :level="level"
-        :avatar="avatar"
+        :defaultAvatar="defaultAvatar"
       />
   </ul>
   <AddComment
@@ -25,7 +25,7 @@ import { getCommentId } from "@/js/utils"
 
 export default {
   name: 'Comments',
-  props: ['comments', 'avatar'],
+  props: ['comments', 'defaultAvatar'],
   components: {
     Comment,
     AddComment
