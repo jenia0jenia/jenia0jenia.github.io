@@ -1,0 +1,33 @@
+.article {
+
+  &__title {
+    margin-bottom: 15px;
+
+    &-span {
+      font-size: 32px;
+      color: $blue-color;
+      text-decoration: underline;
+      text-underline-offset: 1px;
+      text-decoration-thickness: 1px;
+      text-decoration-skip-ink: none;
+    }
+  }
+
+  &__date {
+    font-size: 14px;
+    color: $gray-color;
+    margin-bottom: 15px;
+  }
+
+  &__content {
+    margin-bottom: 20px;
+  }
+
+  &__comments {
+    &-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  }
+
+}

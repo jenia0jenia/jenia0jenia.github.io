@@ -1,0 +1,32 @@
+.rating {
+  display: table;
+  border-collapse: unset;
+
+  &__action {
+    display: table-cell;
+    margin: 0;
+    font-size: 18px;
+    border: 1px solid #000;
+    background-color: #ddd;
+    vertical-align: middle;
+    height: 28px;
+    width: 42px;
+    box-sizing: border-box;
+
+    &_plus {
+      border-radius: 2px 0 0 2px;
+    }
+
+    &_minus {
+      border-radius: 0 2px 2px 0;
+    }
+
+    &_value {
+      border-left: 0;
+      border-right: 0;
+      font-size: 18px;
+      color: #000;
+      text-align: center;
+    }
+  }
+}

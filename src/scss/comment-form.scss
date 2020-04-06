@@ -1,0 +1,52 @@
+.comment-form {
+  position: relative;
+  border: 1px solid #000;
+
+  &__title {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    padding: 1px 5px;
+    font-size: 13px;
+    background-color: #fff;
+  }
+
+  &__form {
+    padding: 20px 15px;
+  }
+
+  &__label {
+    display: block;
+    margin-bottom: 5px;
+
+    &-text {
+      display: inline-block;
+      vertical-align: top;
+      width: 160px;
+      font-size: 14px;
+    }
+  }
+
+  &__input {
+    display: inline-block;
+    vertical-align: top;
+    width: 205px;
+    font-size: 15px;
+  }
+
+  &__textarea {
+    display: inline-block;
+    width: 515px;
+    height: 100px;
+    vertical-align: top;
+    font-size: 15px;
+  }
+
+  &__button {
+    border: 0;
+    background-color: $blue-color;
+    color: #fff;
+    padding: 4px 10px;
+    font-weight: bold;
+  }
+}

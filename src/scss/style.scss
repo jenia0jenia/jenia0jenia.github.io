@@ -1,0 +1,22 @@
+@import "vars.scss";
+@import "fonts.scss";
+
+@import "page.scss";
+@import "article.scss";
+@import "comment.scss";
+@import "comment-list.scss";
+@import "rating.scss";
+@import "comment-form.scss";
+
+body {
+  color: $text-color;
+  background-size: cover;
+  font-family: "DINRoundPro", Arial, serif;
+  font-weight: 500;
+}
+
+body,
+button,
+input {
+  font-family: "DINRoundPro", Arial, serif;
+}
