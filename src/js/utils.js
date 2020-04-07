@@ -40,6 +40,8 @@ function getDatePassed(date) {
     } else {
       return getWord(passed.hours, hoursTextList)
     }
+  } else if(passed.minutes === 0) {
+    return 'Только что'
   } else {
     return getWord(passed.minutes, minutesTextList)
   }

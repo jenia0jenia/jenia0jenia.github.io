@@ -2,26 +2,22 @@
 <div id="comments">
   <ul class="comment-list">
       <Comment
-        v-for="(comment, id) in thisLevelComments"
-        :key="id"
-        :commentId="id"
+        v-for="comment in comments"
+        :key="comment.id"
         :comment="comment"
-        :comments="comments"
-        :level="level"
         :defaultAvatar="defaultAvatar"
+        v-on:add-comment="addComment"
       />
   </ul>
   <AddComment
-    v-on:add-comment="addComment"
+    v-on:add-comment="addCommentHandler"
   />
 </div>
 </template>
 
 <script>
-import Vue from 'vue'
 import Comment from '@/components/Comment'
 import AddComment from '@/components/AddComment'
-import { getCommentId } from "@/js/utils"
 
 export default {
   name: 'Comments',
@@ -32,31 +28,18 @@ export default {
   },
   data() {
     return {
-      thisLevelComments: {},
-      level: 0
     }
-  },
-  watch: {
   },
   methods: {
-    addComment(comment) {
-      Vue.set(this.comments, getCommentId(), comment)
-      this.$emit('force-render')
+    addCommentHandler(newComment) {
+      this.addComment(newComment)
+    },
+    addComment(newComment) {
+      newComment.depth = 0
+      this.comments.push(newComment)
     }
-  },
-  computed: {
-  },
-  created() {
-    this.thisLevelComments = Object.filter(
-      this.comments,
-      ([commId, comm]) => !comm.hasOwnProperty( 'reply' )
-    )
   }
 }
-
-Object.filter = (obj, predicate) =>
-  Object.fromEntries(Object.entries(obj).filter(predicate));
-
 </script>
 
 <style scoped lang="scss">

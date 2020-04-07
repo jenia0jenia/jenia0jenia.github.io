@@ -16,11 +16,12 @@ npm run build
 ```
 
 ## todo
-1. Изменить тип  Даты комментария на строку
-2. Избавиться от forceUpdate после добавления комментария
-3. loaders ??
-4. Rating - отдельный компонент
-5. use api
-6. Оптимизация картинок
+~~1. Изменить тип  Даты комментария на строку~~
+~~2. Избавиться от forceUpdate после добавления комментария~~
+3. Добваить markdown
+4. loaders ??
+5. Rating - отдельный компонент
+6. use api
+7. Оптимизация картинок
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).

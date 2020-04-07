@@ -1,0 +1,85 @@
+[
+    {
+      "id": "1",
+      "depth": 0,
+      "username": "Alex",
+      "voted": 0,
+      "date": 1585161750493,
+      "__my_comment": "12 days ago",
+      "voteTotal": -9,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, fugit.",
+      "avatar": "./src/assets/i/avatar.jpg",
+      "replies": [
+        {
+          "id": "4",
+          "depth": 1,
+          "username": "Boris",
+          "voted": 0,
+          "date": 1586191441012,
+          "__my_comment": "2 hours ago",
+          "voteTotal": 0,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque nam optio perspiciatis tenetur. Aliquam esse fuga id ipsum tempore.",
+          "avatar": ""
+        },
+        {
+          "id": "7",
+          "depth": 1,
+          "username": "Boris",
+          "voted": 0,
+          "date": 1586191486361,
+          "__my_comment": "2 hours ago",
+          "voteTotal": 0,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque nam optio perspiciatis tenetur. Aliquam esse fuga id ipsum tempore.",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "depth": 0,
+      "username": "John",
+      "voted": 0,
+      "date": 1586198060227,
+      "__my_comment": "10 min ago",
+      "voteTotal": -11,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque nam optio perspiciatis tenetur. Aliquam esse fuga id ipsum tempore.",
+      "avatar": ""
+    },
+    {
+      "id": "13",
+      "depth": 0,
+      "username": "Alex",
+      "voted": 0,
+      "date": 1585161750493,
+      "__my_comment": "12 days ago",
+      "voteTotal": -9,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, fugit.",
+      "avatar": "./src/assets/i/avatar.jpg",
+      "replies": [
+        {
+          "id": "43",
+          "depth": 1,
+          "username": "Boris",
+          "voted": 0,
+          "date": 1586191441012,
+          "__my_comment": "2 hours ago",
+          "voteTotal": 0,
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque nam optio perspiciatis tenetur. Aliquam esse fuga id ipsum tempore.",
+          "avatar": "",
+          "replies": [
+            {
+              "id": "73",
+              "depth": 2,
+              "username": "Boris",
+              "voted": 0,
+              "date": 1586191486361,
+              "__my_comment": "2 hours ago",
+              "voteTotal": 0,
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque nam optio perspiciatis tenetur. Aliquam esse fuga id ipsum tempore.",
+              "avatar": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]

@@ -1,5 +1,5 @@
 <template>
-  <li class="comment-list__item" :id="commentId" :key="commentId">
+  <li class="comment-list__item">
     <div class="comment">
       <div class="comment__body">
         <div class="comment__head">
@@ -26,11 +26,11 @@
               >-</button>
             </div>
           </div>
-          <button v-if="canHide"
+          <button v-if="hasReplies"
                   v-on:click.prevent="threadCollapsed = !threadCollapsed"
                   class="comment__collapse-button"
           >{{ threadCollapsed ? 'Показать ветку' : 'Свернуть' }}</button>
-          <a href="#" class="comment__reply">Ответить</a>
+          <a href="#" v-on:click.prevent="showReplyForm = !showReplyForm" class="comment__reply">Ответить</a>
         </div>
         <transition-group name="slide-fade" mode="out-in">
           <div v-if="hideBadComment && badVoteTotal"
@@ -45,63 +45,44 @@
           ></div>
         </transition-group>
       </div>
+      <transition name="fade">
+        <AddComment v-if="showReplyForm"
+                    @add-comment="addCommentNHide"
+                    :replyToUsername="comment.username"
+        />
+      </transition>
     </div>
 
     <transition name="fade" mode="in-out">
-      <div v-if="!threadCollapsed">
-        <ul v-if="level < 2" class="comment-list comment-list_replies">
+      <div v-if="hasReplies && !threadCollapsed">
+        <ul :class="{'comment-list_replies': comment.depth <= 2}"
+            class="comment-list"
+        >
           <Comment
-            v-for="(comm, id) in thisLevelComments"
-            :key="id"
-            :commentId="id"
+            v-for="comm in comment.replies"
+            :key="comm.id"
             :comment="comm"
-            :comments="comments"
-            :level="level + 1"
             :defaultAvatar="defaultAvatar"
+            @add-to-parent-comment="addToParentComment"
           />
         </ul>
-        <Comment
-          v-else
-          v-for="(comm, id) in thisLevelComments"
-          :key="id"
-          :commentId="id"
-          :comment="comm"
-          :comments="comments"
-          :level="level + 1"
-          :defaultAvatar="defaultAvatar"
-        />
       </div>
     </transition>
-<!--    <transition name="fade">-->
-<!--      <div v-if="threadCollapsed"-->
-<!--           v-on:click.prevent="threadCollapsed = !threadCollapsed"-->
-<!--           class="comment__tread-collapse">-->
-<!--        <span class="comment__collapse-button">Показать ветку</span>-->
-<!--      </div>-->
-<!--    </transition>-->
   </li>
 </template>
 
 <script>
-import { getDatePassed } from "@/js/utils"
+  import { getDatePassed } from "@/js/utils"
+  import AddComment from '@/components/AddComment';
 
 export default {
   name: 'Comment',
+  components: {
+    AddComment
+  },
   props: {
     comment: {
       type: Object,
-      required: true
-    },
-    comments: {
-      type: Object,
-      required: true
-    },
-    commentId: {
-      type: String,
-      required: true
-    },
-    level: {
-      type: Number,
       required: true
     },
     defaultAvatar: {
@@ -110,16 +91,13 @@ export default {
   },
   data() {
     return {
-      thisLevelComments: {},
       threadCollapsed: false,
-      hideBadComment: true
+      hideBadComment: true,
+      showReplyForm: false
     }
-  },
-  watch: {
   },
   methods: {
     voting(e) {
-      console.log('voting')
       if (this.comment.voted === 0) {
         let action= e.target.innerHTML
 
@@ -135,27 +113,35 @@ export default {
         this.comment.voteTotal -= this.comment.voted
         this.comment.voted = 0
       }
-      console.log(this.hideBadComment)
+    },
+    addCommentNHide(newComment) {
+      this.showReplyForm = false
+      this.addComment(newComment, this.comment)
+    },
+    addToParentComment(newComment) {
+      this.comment.replies.push(newComment)
+    },
+    addComment(newComment) {
+      if (this.comment.depth < 2) {
+        newComment.depth = this.comment.depth + 1
+        this.comment.replies.push(newComment)
+      } else {
+        newComment.depth = 2
+        this.$emit('add-to-parent-comment', newComment)
+      }
     }
   },
   computed: {
     datePassed() {
       return getDatePassed(this.comment.date)
     },
-    canHide() {
-      return this.level < 2 &&
-        Object.keys(this.thisLevelComments).length
-    },
     badVoteTotal() {
-      // this.hideBadComment = true
       return this.comment.voteTotal < -9
+    },
+    hasReplies() {
+      return this.comment.replies &&
+        this.comment.replies.length
     }
-  },
-  created() {
-    this.thisLevelComments = Object.filter(
-      this.comments,
-      ([commId, comm]) => this.commentId === comm.reply
-    )
   }
 }
 </script>

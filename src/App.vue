@@ -1,35 +1,25 @@
 <template>
     <Comments
-      :key="componentKey"
       :comments="comments"
       :defaultAvatar="defaultAvatar"
-      v-on:force-render="forceRerender"
     />
 </template>
 
 <script>
   import Comments from "@/components/Comments"
   import Avatar from "@/assets/i/avatar.jpg"
-  import CommentsJson from "@/comments.json"
+  import CommentsJson from "@/comments-list.json"
 
   export default {
     name: 'App',
     data() {
       return {
-        componentKey: 1,
         defaultAvatar: Avatar,
         comments: CommentsJson,
       }
     },
     components: {
       Comments
-    },
-    methods: {
-      forceRerender() {
-        this.componentKey += 1;
-      }
-    },
-    watch: {
     }
   }
 </script>

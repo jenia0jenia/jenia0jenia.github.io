@@ -23,7 +23,10 @@
 </template>
 
 <script>
-export default {
+  import { getCommentId } from "@/js/utils"
+
+  export default {
+  props: ['replyToUsername'],
   data() {
     return {
       text: '',
@@ -43,17 +46,19 @@ export default {
       }
       if (this.username.trim() && this.text.trim() && this.email.trim()) {
         const newComment = {
+          id: getCommentId(),
           username: this.username,
           voted: false,
-          vote_total: 0,
+          voteTotal: 0,
           email: this.email,
           date: new Date(),
           text: this.text,
           avatar: '',
-          reply: '1'
+          replies: []
         }
-
-        this.$emit('add-comment', newComment)
+        this.$emit(
+          'add-comment', newComment
+        )
         this.username = ''
         this.email = ''
         this.text = ''
@@ -69,12 +74,13 @@ export default {
         }
       }
     }
+  },
+  created() {
+    if (this.replyToUsername !== undefined)
+      this.text = this.replyToUsername + ', '
   }
 }
 </script>
 
 <style scoped lang="scss">
-  .error {
-    color: red;
-  }
 </style>
