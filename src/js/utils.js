@@ -1,5 +1,3 @@
-let hourMs = 1000*60*60
-let minuteMs = 1000*60
 let minutesTextList = ['минута', 'минуты', 'минут']
 let hoursTextList = ['час', 'часа', 'часов']
 let daysTextList = ['день', 'дня', 'дней']

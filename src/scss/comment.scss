@@ -59,6 +59,10 @@
 
   &__text {
     margin-bottom: 10px;
+
+    &_bad {
+      cursor: pointer;
+    }
   }
 
   &__collapse {

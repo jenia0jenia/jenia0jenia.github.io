@@ -20,6 +20,20 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
+          // {
+          //   loader: 'style-loader',
+          //   options: {
+          //     injectType: 'linkTag'
+          //   }
+          // },
+          // {
+          //   loader: 'file-loader',
+          //   options: {
+          //     outputPath: 'css',
+          //     name: '[name].css?[hash]',
+          //   },
+          // },
+          // { loader: 'extract-loader' },
           'vue-style-loader',
           'css-loader',
           'sass-loader'

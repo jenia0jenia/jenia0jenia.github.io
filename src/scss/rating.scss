@@ -15,10 +15,19 @@
 
     &_plus {
       border-radius: 2px 0 0 2px;
+
+      &.rating__action_voted {
+        background-color: $green-light;
+      }
+
     }
 
     &_minus {
       border-radius: 0 2px 2px 0;
+
+      &.rating__action_voted {
+        background-color: $red-light;
+      }
     }
 
     &_value {

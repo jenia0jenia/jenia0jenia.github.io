@@ -32,15 +32,15 @@
           >{{ threadCollapsed ? 'Показать ветку' : 'Свернуть' }}</button>
           <a href="#" v-on:click.prevent="showReplyForm = !showReplyForm" class="comment__reply">Ответить</a>
         </div>
-        <transition-group name="slide-fade" mode="out-in">
+        <transition-group name="slide-fade" mode="out-in" tag="div">
           <div v-if="hideBadComment && badVoteTotal"
                v-on:click="hideBadComment = !hideBadComment"
                :key="1"
-               class="comment__text comment__show-bad"
-          >Показать комментарий</div>
+               class="comment__text comment__text_bad"
+          >Открыть комментарий</div>
           <div v-else
                :key="2"
-               v-html="comment.text"
+               v-html="markdownText"
                class="comment__text"
           ></div>
         </transition-group>
@@ -73,6 +73,7 @@
 
 <script>
   import { getDatePassed } from "@/js/utils"
+  import { markdownProcess } from "@/js/markdown"
   import AddComment from '@/components/AddComment';
 
 export default {
@@ -93,7 +94,8 @@ export default {
     return {
       threadCollapsed: false,
       hideBadComment: true,
-      showReplyForm: false
+      showReplyForm: false,
+      markdownText: markdownProcess(this.comment.text)
     }
   },
   methods: {
@@ -147,17 +149,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  @import "../scss/vars.scss";
-  .rating__action_voted {
-    &.rating__action_plus {
-      background-color: $green-light;
-    }
-
-    &.rating__action_minus {
-      background-color: $red-light;
-    }
-  }
-
   .fade-enter-active, .fade-leave-active {
     transition: opacity .4s ease-in-out;
   }

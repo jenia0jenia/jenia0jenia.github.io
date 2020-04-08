@@ -50,4 +50,18 @@
     padding: 4px 10px;
     font-weight: bold;
   }
+
+  &__info {
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 60%;
+    padding: 2px 7px;
+    cursor: pointer;
+
+    &-img {
+      position: absolute;
+      left: 100%;
+      transform: translateY(-50%);
+    }
+  }
 }

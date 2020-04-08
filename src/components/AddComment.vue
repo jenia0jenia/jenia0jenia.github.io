@@ -1,6 +1,16 @@
 <template>
   <div class="comment-form">
-    <span class="comment-form__title">Добавить комментарий</span>
+    <span class="comment-form__title">Добавить комментарий
+      <span v-on:mouseover="showMarkdownHelp = true"
+            v-on:mouseleave="showMarkdownHelp = false"
+            class="comment-form__info"
+      >
+        ?
+        <transition name="fade">
+          <img height="306px" width="396px" class="comment-form__info-img" v-show="showMarkdownHelp" src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/545804d8e4b09c5ca72525ce/images/5bfffa1304286304a71cca67/file-HkUrvqZYBI.png" alt="markdown help">
+        </transition>
+      </span>
+    </span>
     <form class="comment-form__form" v-on:submit.prevent="checkForm">
       <label v-bind:class="{ error: errors.username }" class="comment-form__label" for="name">
         <span class="comment-form__label-text">Имя</span>
@@ -24,6 +34,7 @@
 
 <script>
   import { getCommentId } from "@/js/utils"
+  // import MarkdownHelp from "@/assets/i/markdownHelp.jpg"
 
   export default {
   props: ['replyToUsername'],
@@ -36,7 +47,8 @@
         username: false,
         email: false,
         text: false
-      }
+      },
+      showMarkdownHelp: false
     }
   },
   methods: {
@@ -75,12 +87,22 @@
       }
     }
   },
+  computed: {
+  },
   created() {
     if (this.replyToUsername !== undefined)
       this.text = this.replyToUsername + ', '
   }
 }
+
+
 </script>
 
 <style scoped lang="scss">
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .4s ease-in-out;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
 </style>
